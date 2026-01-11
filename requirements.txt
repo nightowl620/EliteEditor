@@ -1,0 +1,27 @@
+# Elite Editor - Professional Video Editing with AI
+# Core dependencies
+
+# UI Framework
+PySide6>=6.5.0
+
+# Video Processing
+moviepy>=1.0.0
+imageio>=2.25.0
+imageio-ffmpeg>=0.4.8
+
+# Google Gemini AI
+google-genai>=0.1.0
+
+# Audio Processing
+soundfile>=0.12.0
+librosa>=0.10.0
+
+# Image Processing
+Pillow>=9.0.0
+numpy>=1.23.0
+
+# Development Dependencies (optional)
+pytest>=7.0
+black>=22.0
+flake8>=4.0
+mypy>=0.950
