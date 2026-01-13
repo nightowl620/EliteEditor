@@ -25,7 +25,7 @@ Prerequisites:
 Clone the repo and prepare a Python virtual environment:
 
 ```powershell
-git clone <repo-url> EliteEditor
+git clone https://github.com/pro-grammer-SD/EliteEditor.git
 cd EliteEditor
 python -m venv .venv
 .\.venv\Scripts\activate
